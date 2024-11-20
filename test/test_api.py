@@ -30,7 +30,7 @@ def test_get_sum(transaction_id):
 
 def main():
     # Test creating transactions
-    test_put_transaction(5000, 5000, "cars")
+    test_put_transaction(10, 5000, "cars")
     test_put_transaction(502, 10000, "shopping", parent_id=10)
 
     # Test retrieving transactions
